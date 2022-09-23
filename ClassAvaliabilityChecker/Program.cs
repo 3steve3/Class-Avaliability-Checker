@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 
 namespace ClassChecker
 {
-    public class IsOpen
+    public sealed class IsOpen
     {
         public string SeatsAvail { get; set; } = "";
         string? seats;
